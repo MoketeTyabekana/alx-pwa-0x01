@@ -21,11 +21,7 @@ const withPWA = withPWAInit({
   dest: 'public'
 })
 
-const nextConfig = {
-  images: {
-    domains: ['m.media-amazon.com'],
-  },
-};
+const nextConfig = {};
 
 export default withPWA({
   ...nextConfig
