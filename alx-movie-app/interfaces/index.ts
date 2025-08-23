@@ -5,7 +5,7 @@ export interface ComponentProps {
 }
 
 export interface ButtonProps {
-  title: string
+  title: string;
   action?: () => void
 }
 
